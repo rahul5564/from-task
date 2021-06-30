@@ -10,6 +10,7 @@ submit.addEventListener("click",function(e){
     for(let i=0;i<gender.length;i++){
         if(gender[i].checked){
             gendervalue = gender[i].value;
+            console.log("genderr value",gendervalue)
         }
     }
 
@@ -35,7 +36,7 @@ submit.addEventListener("click",function(e){
         address2.value=""
         pin.value=""
         gendervalue=""
-        // result.value=""
+        result.value=""
         foodlist = [];
         state.value=""
         country.value=""
